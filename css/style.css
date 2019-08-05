@@ -1,0 +1,179 @@
+body {
+    background: #F5F5F5;
+}
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url('../font/HelveticaNeueBold.ttf');
+}
+
+
+/* Media Query ，也就是當寬度 < 768 px 時將載入下面這段 CSS :
+ @media only screen and (max-width: 768px) {} */
+
+
+/* Media Query ，也就是當寬度 < 480 px 時將載入下面這段 CSS : 
+@media only screen and (max-width: 480px) {
+
+}*/
+
+.main {
+    background: #F5F5F5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+}
+
+.col {
+    width: 100%;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-1 {
+    /* flex:1 1 auto */
+    flex: 1;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#right {
+    width: 65%;
+    float: right;
+    font-family: 'HelveticaNeueBold', 'Noto Sans TC', sans-serif;
+}
+
+#left {
+    width: 35%;
+    text-transform: uppercase;
+    float: left;
+}
+
+.singerimg {
+    margin: 40px 0 0 85px;
+}
+
+.ltitle {
+    font-size: 6vmin;
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+    margin-left: 85px;
+    font-family: HelveticaNeueBold;
+}
+
+.RcontentBox {
+    width: 439px;
+    height: 128px;
+    margin-left: 85px;
+}
+
+.follow {
+    font-size: 16px;
+}
+
+.follow_math {
+    font-size: 34px;
+    display: inline-block;
+}
+
+.button_follow {
+    width: 143px;
+    height: 34px;
+    border: 1px solid #000;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    position: relative;
+    left: 67px;
+}
+
+.button_PLAY {
+    width: 143px;
+    height: 34px;
+    background: #FF6C00;
+    color: #fff;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    position: relative;
+    left: 83px;
+}
+
+#play {
+    width: 720px;
+    height: 96px;
+    background: rgba(0, 0, 0, 1);
+    float: right;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 20;
+    color: #fff;
+    font-size: 16px;
+}
+
+.rtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 40px 0 0 30px;
+}
+
+.song {
+    margin: 16px 0 30px 30px;
+}
+
+ol {
+    width: 541px;
+}
+
+li {
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.newrelease {
+    width: 540px;
+    height: 176px;
+}
+
+.leasetitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.leasecontent {
+    height: 160px;
+    line-height: 160px;
+}
